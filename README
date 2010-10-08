@@ -1,0 +1,19 @@
+Visning av neste buss fra Kolumbus på gitt holdeplass
+- Teller ned til bussen går
+- Blir orange hvis mindre enn 5 minutter igjen
+- Rød farge indikerer at bussen har gått for mindre enn 5 minutter siden
+- I HTML-koden settes holdeplassnr opp
+- Kan ha flere holdeplass i samme visning (flere retning f.eks.)
+- Bruker nestebuss.php som relay pga. same origin policy
+
+Hvordan finne holdeplassnr:
+- Gå til reiseplanlegger.kolumbus.no
+- Skriv noe i det første søkefeltet (holdeplassgruppe eller adresse,
+  ikke holdeplass
+- Trykk se avgangsliste
+- I første kolonne, nummer, så vil holdeplassnummeret stå
+
+Author: Hallvard Nygård, http://hnygard.no/
+Source code: http://github.com/HNygard/kolumbus-nestebuss
+
+License: Creative Commons Attribution-Share Alike 3.0 Norway License, http://creativecommons.org/licenses/by-sa/3.0/no/
